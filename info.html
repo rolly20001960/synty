@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="/dist/output.css"rel="stylesheet" >
+    <title>Document</title>
+</head>
+<body class="w-full h-full  flex flex-col justify-center items-center  m-0 p-0" style="background-color: rgba(188, 211, 211, 0.507);">
+    <div class="w-[95%] h-[100vh]  flex flex-col justify-center items-center">
+        <header class="w-full h-[15%] flex justify-between items-center  shadow-2xl">
+            <h1 class=" text-3xl fill-zinc-800 ">SYNTY</h1>
+            <ul class="flex justify-between items-center gap-28 max-[980px]:hidden">
+                <li class="list-none"><a href="index.html" class="text-[22px] fill-zinc-700  hover:text-blue-300">acceuil</a></li>
+                <li class="list-none"><a href="gallery.html" class="text-[22px] fill-zinc-700  hover:text-blue-300">galerie</a></li>
+                <li class="list-none"><a href="#" class="text-[22px] fill-zinc-700 text-red-800 hover:text-blue-300">services</a></li>
+            </ul>
+            <button class="flex max-[980px]:hidden"><a href="tel:+243845018419" class="text-2xl text-yellow-50 bg-gray-400 border-4 rounded-[8px]  border-gray-400 ">conctat</a></button>
+
+            <nav class="hidden max-[980px]:flex flex-col justify-center items-center " id="navclick">
+                <div class="flex flex-col gap-1.5 " >
+                    <span class="w-7 h-[2px] bg-zinc-600"></span>
+                    <span class="w-7 h-[2px] bg-zinc-600"></span>
+                    <span class="w-7 h-[2px] bg-zinc-600"></span>                
+                </div>
+    
+            </nav>
+        </header>
+
+        <section class="h-[85%] w-full flex justify-between items-center ">
+            <aside class="h-full w-[33%]  flex flex-col justify-center items-center bg-blue-5 rounded-[1px] max-[980px]:hidden ">
+                <img src="../photo/pexels-snapmantoks-12599059.jpg" class="w-[100%] h-[100%]  transition-transform hover:translate-1.5 hover:border-[2px] hover:border-amber-100">
+            </aside>
+
+            <aside class="h-full w-[33%] flex flex-col justify-between items-center bg-gray-300 max-[980px]:w-full ">
+                <div class="w-full h-[15%] overflow-hidden" >
+                <img src="../photo/pexels-madalina-enache-1540051428-30089119.jpg" class="h-[40%%] w-full">
+
+                </div>
+                <div class="h-[70%] w-full flex flex-col justify-center items-center gap-7">
+                    <h1 class=" text-gray-800 text-center  text-7xl">service</h1>
+                    <h1 class="text-[6em] max-[980px]:text-[3em]">make up</h1>
+                    <ul class="gap-5">
+                        <li class="text-2xl">votre mariage</li>
+                        <li class="text-2xl">votre spetacle</li>
+                        <li class="text-2xl"> votre ceremonie </li>
+                    </ul>
+                </div>
+                
+                <div class="h-[13%] w-full flex flex-col justify-center items-center ">
+                        <button class="h-[5vh] w-[25vh] border-2 border-black bg-black "><a href="#" class="text-[20px] text-yellow-50  hover:bg-gray-400">contact</a></button>
+                </div>
+            </aside>
+
+            <aside class="h-full w-[33%]  flex flex-col justify-center items-center  bg-blue-5 rounded-[10px] max-[980px]:hidden ">
+                <img src="../photo/pexels-crystal-chance-3875283-15176049.jpg" class="w-[100%] h-[100%] transition-transform hover:translate-1.5 hover:border-[2px] hover:border-amber-100">     
+            </aside>
+        </section>
+
+
+        <footer class="h-[10%] w-full flex justify-around  items-center" style="background-color: rgba(219, 234, 248, 0.603);">
+            <h2 class="hover:border-[2px] border-white text-[22px]">beaute</h2> 
+           <h2 class="hover:border-[2px] border-white text-[22px]">beauty</h2> 
+           <h2 class="hover:border-[2px] border-white text-[22px]">kitoko</h2> 
+           <h2 class="hover:border-[2px] border-white text-[22px]">jojo</h2> 
+        </footer>
+    </div>
+
+    <div class="h-[48vh] w-[95%] bg-zinc-400 mt-[-92vh] hidden flex-col justify-center items-center " id="menulink">
+        <ul class="flex flex-col justify-center items-center gap-7">
+            <li class="list-none"><a href="index.html  " class="text-[22px] fill-zinc-700   hover:text-blue-300">acceuil</a></li>
+            <li class="list-none"><a href="gallery.html" class="text-[22px] fill-zinc-700  hover:text-blue-300">galerie</a></li>
+            <li class="list-none"><a href="info.html" class="text-[22px] text-red-500  fill-zinc-700 hover:text-blue-300">services</a></li>
+            <li>
+             <a href="tel:+243845018419" class="text-2xl text-yellow-50 bg-black border-4 rounded-[10px]  border-black ">contact</a>
+            </li>
+        </ul>
+
+    </div>
+
+    <script src="./page.js"></script>
+</body> 
+</html>
